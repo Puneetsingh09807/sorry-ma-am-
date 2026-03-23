@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>For My Favorite Person 🍫</title>
+    <style>
+        body { text-align: center; font-family: 'Comic Sans MS', cursive, sans-serif; background-color: #f8bbd0; color: #4e342e; padding-top: 60px; }
+        .card { background: #ffffff; padding: 40px; border-radius: 30px; display: inline-block; box-shadow: 0 10px 20px rgba(0,0,0,0.1); border: 4px solid #d32f2f; max-width: 450px; }
+        .music-btn { background: #fff; padding: 10px 20px; border-radius: 50px; border: 2px solid #d32f2f; cursor: pointer; margin-bottom: 20px; font-weight: bold; transition: 0.3s; }
+        .music-btn:hover { background: #ffebee; }
+        button { padding: 12px 25px; font-size: 16px; font-weight: bold; cursor: pointer; border: none; border-radius: 50px; margin: 10px; transition: 0.3s; }
+        #yes { background-color: #4caf50; color: white; }
+        #no { background-color: #d32f2f; color: white; }
+        a { text-decoration: none; }
+    </style>
+</head>
+<body>
+    <audio id="track" src="espresso.mp3" loop></audio>
+    <button class="music-btn" onclick="document.getElementById('track').play()">🎵 Tap to Play Vibe (Espresso)</button>
+
+    <br>
+    <div class="card">
+        <div style="font-size: 50px;">🍫✨</div>
+        <h1>I'm so sorry, Gorgeous...</h1>
+        <p>I was just telling you that you would look great in those hair!</p>
+        <p>You always look stunning. Forgive me?</p>
+        <div class="btn-container">
+            <a href="forgiven.html"><button id="yes">Yes, I Forgive You</button></a>
+            <a href="still_mad.html"><button id="no">No, I'm still mad</button></a>
+        </div>
+    </div>
+</body>
+</html>
